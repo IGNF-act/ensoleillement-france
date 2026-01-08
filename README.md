@@ -1,7 +1,7 @@
 # Ensoleillement en France entre 2015 et 2023  
 **Données Météo-France – Traitements R – Cartographie IGN**
 
-![Logo IGN](images/logo_ign.png)
+![Logo IGN](Logo.png)
 
 ##  Contexte du projet
 
