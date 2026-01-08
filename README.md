@@ -1,11 +1,12 @@
 # Ensoleillement en France entre 2015 et 2023  
 **Données Météo-France – Traitements R – Cartographie IGN**
 
-![Logo IGN](Logo.png)
+![Logo IGN](Logo.PNG)
 
 ##  Contexte du projet
 
-Ce projet vise à analyser et cartographier l’évolution de l’**ensoleillement annuel en France métropolitaine entre 2015 et 2023**, à partir des **données mensuelles de Météo-France**, puis à produire des surfaces interpolées et des seuils d’heures d’ensoleillement exploitables dans un outil de cartographie grand public (Ma carte – IGN).
+Ce projet vise à analyser et cartographier l’évolution de l’**ensoleillement annuel en France métropolitaine entre 2015 et 2023**, à partir des **données mensuelles de Météo-France**, 
+puis à produire des surfaces interpolées et des seuils d’heures d’ensoleillement exploitables dans un outil de cartographie grand public (Ma carte – IGN).
 
 ---
 
