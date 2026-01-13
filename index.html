@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8" />
     <title>Ma carte</title>
+
+    <!-- CSS pour forcer la page et l'iframe à occuper toute la hauteur -->
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+      }
+
+      /* l'iframe doit être un bloc sans bord pour occuper tout l'espace */
+      #map {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+
     <!-- 1. Charger le code de l'API -->
     <script type="text/javascript" src="https://macarte.ign.fr/carte/MapIFrameAPI.js"></script>
   </head>
 
   <body>
     <!-- 2. <iframe> qui va contenir la carte a afficher -->
-  <iframe
-  title = "Carte ensoleillement France"
-id="map"
- src="https://macarte.ign.fr/carte/oPX2Q1/Evolution-de-l-ensoleillement-de-la-France-entre-2015-et-2023"
- width="100%"
-height="900px"
-allow="geolocation clipboard-read; clipboard-write">
-</iframe>
-   
+    <iframe
+      id="map"
+      title="Carte ensoleillement France"
+      src="https://macarte.ign.fr/carte/oPX2Q1/Evolution-de-l-ensoleillement-de-la-France-entre-2015-et-2023"
+      allow="geolocation clipboard-read; clipboard-write">
+    </iframe>
+
     <script>
       // Variable globale
       var mapAPI = null;
